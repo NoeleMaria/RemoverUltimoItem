@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método concat()</title>
+</head>
+<body>
+    <h1>Método concat()</h1>
+    <h2><strong>É possível realizar o método concat() com dados contidos no JavaScript, bem como com dados inseridos pelo usuário.</strong></h2>
+
+    <fieldset>
+        <h2><strong>Dados contidos no JavaScript</strong></h2><br>
+        <div>
+            <label><strong>Grupo 1</strong></label>
+            <p id="grupo1-js"></p>
+        </div>
+
+        <div>
+            <label><strong>Grupo 2</strong></label>
+            <p id="grupo2-js"></p>
+        </div>
+
+        <div>
+            <p id="resultado-js">O resultado do Método concat() com Grupo 1 e Grupo 2 é:</p>
+        </div>
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <h2><strong>Dados inseridos pelo usuário</strong></h2><br>
+        <div>
+            <label><strong>Grupo 1</strong></label>
+            <input type="value" name="grupo1-usuario" id="grupo1-usuario" required>
+        </div>
+
+        <div>
+            <label><strong>Grupo 2</strong></label>
+            <input type="value" name="grupo2-usuario" id="grupo2-usuario" required>
+        </div>
+
+        <div>
+            <p id="resultado-usuario">O resultado do Método concat() com Grupo 1 e Grupo 2 é:</p>
+        </div>
+
+        <button class="botao" id="botao" onclick="usuario()">Concatenar</button>
+    </fieldset>
+    <script src="Remover elementos da lista.js"></script>
+</body>
+</html>
